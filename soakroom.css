@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 5px rgb(234, 226, 226) solid;
+}
+
+.header {
+    height: 10%;
+    background: rgb(129, 166, 238);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    padding: 2px 10px;
+}
+
+h1 {
+    text-align: center;
+    border: solid;
+    padding: 10px;
+    background: rgb(129, 166, 238);
+    color: white;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}

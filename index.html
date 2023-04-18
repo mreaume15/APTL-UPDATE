@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" href="style.css"></head>
+<nav>
+  <h1> Soak Room cordination system</h1>
+<h3> Please fill out the form below  to have your  vehicle moved to a soak room</h3>
+<div class="field1"></div>
+<!--first fieldset with links-->
+<fieldset><nav class="links">
+    <a href="index.html">Home</a><br>
+    <a href="login.html">Logout</a><br>
+    <a href="soakroom.html">Soakroom 78</a>
+</div>
+</nav></fieldset>
+<!--end of first fieldset-->
+<body>
+  <br>
+      <!--start of second fieldset for Requester,vehicle and infromation-->
+  <form>
+  <fieldset class="rid1">
+    <legend class="rid">Requester information</legend>
+    <div class="infobox">
+      <label for="Requester-name">Requester Name: <input type="text" id="Requester Name"><br><br>
+        <label for="Phone Number">  Phone Number: <input type="phone" placeholder="000-000-0000"><br><br>
+         <label for="Email Address"> Email Address:<input type="email" id="Email address"><br><br>
+        <label for="Vehicale Number">Vehicle Number:<input type="text" id="Vehicle Number"><br><br>
+        <p> Does your vehicle need Pluged in?</p>
+        <input type="checkbox">Yes
+        <input type="checkbox">No
+    </fieldset>
+</form>
+<!--end of second fieldset-->
+<br>
+<!--start of third fieldset and info for soak temps-->
+<form>
+  <fieldset class="soaktemp">
+    <legend class="soaktemp">Soak Temp</legend>
+  <input type="checkbox">20 degree
+<input type="checkbox"> 30 degree
+<input type="checkbox">50 degree
+<input type="checkbox" > Place in Ambient
+<p> A comfirmation Email will be sent after vehicle is placed into the requested soak, please plan at least 12 hours before your  next scheduled text time</p>
+</fieldset>
+</form>
+
+<br>
+<button>SUBMIT</button>
+<!--end of third fieldset-->
+<script src="index.js"></script>
+</body>
+</html>

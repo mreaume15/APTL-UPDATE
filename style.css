@@ -1,0 +1,55 @@
+main {
+    background-color: rgb(185, 236, 253);
+    border-radius: 4%;
+
+}
+
+body {
+    background-image: url('https://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/broncosport/2021/collections/equipment/3-2/21_FRD_BRO_49958_3_2.jpg/jcr:content/renditions/cq5dam.web.768.768.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.infobox {
+
+    display: flex;
+    text-align: right;
+}
+
+button {
+    padding: 12px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+fieldset {
+    background-color: rgb(185, 236, 253);
+}
+
+.rid {
+    border: solid 1px;
+    font-weight: bolder;
+    background-color: rgb(185, 236, 253);
+    padding: 10px 10px 10px 10px;
+}
+
+.soaktemp {
+    border: solid 1px;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(185, 236, 253);
+
+}
